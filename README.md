@@ -1,24 +1,40 @@
-import pyttsx3
-import os
+# 🗣️ Book Reader using Python
 
-# Initialize text-to-speech engine
-engine = pyttsx3.init()
-engine.setProperty('rate', 140)
-engine.setProperty('volume', 1.0)
+This is a simple Python project that reads aloud the content of a `.txt` file using **text-to-speech (TTS)**. It was created to explore Python basics like file handling, conditional logic, and using external libraries like `pyttsx3`.
 
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)  # 0 = male, 1 = female
+---
 
-def speak(text):
-    engine.say(text)
-    engine.runAndWait()
+## 📌 Features
 
-file_name = r"C:\Users\drishti sharma\Documents\book.txt"
+- 🔊 Converts text to speech using `pyttsx3`
+- 📁 Reads content from any `.txt` file
+- ⚙️ Supports voice control (male/female), volume, and speed
+- 💻 Works offline on any Windows laptop
 
-if os.path.isfile(file_name):
-    with open(file_name, 'r', encoding='utf-8') as file:
-        content = file.read()
-        speak("Reading your file now.")
-        speak(content)
-else:
-    speak("File not found.")
+---
+
+## 💻 How to Use
+
+1. Install the required Python library:pip install pyttsx3
+   
+2. Save your book content in a text file (e.g., `book.txt`)
+
+3. Make sure your `.py` file has the correct path to the file:
+```python
+file_name = r"C:\Users\yourname\Documents\book.txt"
+python file.py
+book-reader-python/
+│
+├── file.py         # Main Python script
+└── README.md       # Project description
+
+---
+
+### ✅ After saving the README.md:
+Your GitHub will look much more professional and **LinkedIn-ready**! 😎
+
+Let me know when it’s done — I’ll help you with your **final LinkedIn post caption** with the GitHub link included.
+
+
+
+
