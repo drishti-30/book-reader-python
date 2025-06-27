@@ -31,7 +31,6 @@ book-reader-python/
 
 
 
-Let me know when it’s done — I’ll help you with your **final LinkedIn post caption** with the GitHub link included.
 
 
 
