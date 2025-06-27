@@ -14,24 +14,22 @@ This is a simple Python project that reads aloud the content of a `.txt` file us
 ---
 
 ## 💻 How to Use
-
-1. Install the required Python library:pip install pyttsx3
-   
+1.Install the required Python library: `pip install pyttsx3`
 2. Save your book content in a text file (e.g., `book.txt`)
-
 3. Make sure your `.py` file has the correct path to the file:
 ```python
+<pre>
+```python
 file_name = r"C:\Users\yourname\Documents\book.txt"
-python file.py
 book-reader-python/
-│
 ├── file.py         # Main Python script
 └── README.md       # Project description
 
----
 
-### ✅ After saving the README.md:
-Your GitHub will look much more professional and **LinkedIn-ready**! 😎
+
+
+
+
 
 Let me know when it’s done — I’ll help you with your **final LinkedIn post caption** with the GitHub link included.
 
